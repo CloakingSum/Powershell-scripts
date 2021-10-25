@@ -1,1 +1,2 @@
+### this will grab all users that show to the DC. Once pulled it will show only their sammaccountname, the lastlogondate, and whencreated date. Then it sorts by logon.
 get-aduser -filter 'name -like "*"' -properties | select-object samaccountname,lastlogondate,whencreated | sort-object lastlogondate 
