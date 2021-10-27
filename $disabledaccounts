@@ -1,0 +1,5 @@
+$disabledaccounts = if(search-adaccount -accountdisabled -usersonly | select-object samaccountname, enabled, lastlogon | sort-object lastlogondate | export-csv c:\users\username\..){
+write-host("Here are your disabled accounts")
+  }else {
+  write-host("There are no disabled accounts")
+}
