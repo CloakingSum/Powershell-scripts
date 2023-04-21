@@ -1,0 +1,2 @@
+$ping = New-Object System.Net.NetworkInformation.Ping
+1..254 | ForEach-Object { $ping.send("10.x.x.$_") }
