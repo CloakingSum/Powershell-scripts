@@ -1,0 +1,47 @@
+echo off
+
+net stop msexchangeadtopology
+net stop msexchangeantispamupdate
+net stop msexchangedagmgmt
+net stop msexchangedisagnostics
+net stop msexchangeedgesync
+net stop msexchangefrontendtransport
+net stop msexchangehm
+net stop msexchangeIS
+net stop msexchangeMailboxassistants
+net stop msexchangemailboxreplication
+net stop msexchangedelivery
+net stop msexchangesubmission
+net stop msexchangerepl
+net stop msexchangerpc
+net stop msexchangefastsearch
+net stop hostcontrollerservice
+net stop msexchangeservicehost
+net stop msexchangethrottling
+net stop msexchangetransport
+net stop msexchangetransportlogsearch
+net stop msexchangeum
+net stop msexchangeumcr
+
+net start msexchangeadtopology
+net start msexchangeantispamupdate
+net start msexchangedagmgmt
+net start msexchangedisagnostics
+net start msexchangeedgesync
+net start msexchangefrontendtransport
+net start msexchangehm
+net start msexchangeIS
+net start msexchangeMailboxassistants
+net start msexchangemailboxreplication
+net start msexchangedelivery
+net start msexchangesubmission
+net start msexchangerepl
+net start msexchangerpc
+net start msexchangefastsearch
+net start hostcontrollerservice
+net start msexchangeservicehost
+net start msexchangethrottling
+net start msexchangetransport
+net start msexchangetransportlogsearch
+net start msexchangeum
+net start msexchangeumcr
